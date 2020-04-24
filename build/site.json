@@ -10,9 +10,9 @@
 		"footer": "&copy; The National Gallery 2020",
 		"extra_logos": {
 			"github": {
-				"link": "https://github.com/jpadfield/simple-site",
+				"link": "https://github.com/tanc-ahrc/LocatingTANC",
 				"logo": "graphics/github logo white.png",
-				"alt": "GitHub Jpadfield Simple-site"
+				"alt": "GitHub Locating TANC"
 			}
 		},
 		"extra_js_scripts": [],
