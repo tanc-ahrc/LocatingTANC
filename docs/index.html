@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Simple system for creating a set of web-pages to support your GitHub repository from a few simple json files." />
-		<meta name="keywords" content="The National Gallery, London, National Gallery London, Scientific, Research, Heritage, Culture, JSON, PHP, Javascript, Github Pages, Dissemination, VRE, IIIF, Mermaid, Timeline, Mirador " />
-    <meta name="author" content="Joseph Padfield| joseph.padfield@ng-london.org.uk |National Gallery | London UK | website@ng-london.org.uk |www.nationalgallery.org.uk" />
-    <link rel="icon" href="https://www.nationalgallery.org.uk/custom/ng/img/icons/favicon.ico">
-    <title>NG Simple Site</title>
+    <meta name="description" content="Locating a National Collection" />
+		<meta name="keywords" content="British Library, London, National Trust, Historic Royal Palaces, University of Exeter, Heritage, Culture, Place, Location, Maps, Engagement" />
+    <meta name="author" content="Gethin Rees| British Library | London UK | www.bl.uk" />
+    <link rel="icon" href="https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico">
+    <title>Locating a National Collection</title>
     
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="https://unpkg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -28,11 +28,7 @@
 				style="" alt="The National Gallery"/>
 		  </a>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault"><ul class="navbar-nav">
-<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li><li class="nav-item "><a class="nav-link" href="instructions.html">Instructions</a></li><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the JSON menu" >JSON</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="JSON.html" class="dropdown-item top-item" title="Click to open the JSON page">JSON</a></li><li class="dropdown-divider"></li><li><a href="site.json.html" class="dropdown-item">Site.json</a></li><li><a href="pages.json.html" class="dropdown-item">Pages.json</a></li></ul></li><!-- End Loop 1 --><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Extensions menu" >Extensions</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="extensions.html" class="dropdown-item top-item" title="Click to open the Extensions page">Extensions</a></li><li class="dropdown-divider"></li><li><a href="timeline.html" class="dropdown-item">Timeline</a></li><li><a href="IIIF viewer.html" class="dropdown-item">IIIF viewer</a></li></ul></li><!-- End Loop 1 --><!-- Dropdown Loop 1 --><li class="nav-item dropdown "><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" title="Click to open the Example menu" >Example</a><ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow"><li><a href="example.html" class="dropdown-item top-item" title="Click to open the Example page">Example</a></li><li class="dropdown-divider"></li><!-- Dropdown Loop 2 --><li class="dropdown-submenu">
-   <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle" title="Click to open the Example-subpage-01 menu">Example-subpage-01</a>
-		<ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow"><li><a href="example-subpage-01.html" class="dropdown-item  top-item" title="Click to open the Example-subpage-01 page">Example-subpage-01</a></li><li class="dropdown-divider"></li><!-- Dropdown Loop  --><li class="dropdown-submenu">
-   <a id="dropdownMenu" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle" title="Click to open the Example-sub-subpage-01 menu">Example-sub-subpage-01</a>
-		<ul aria-labelledby="dropdownMenu" class="dropdown-menu border-0 shadow"><li><a href="example-sub-subpage-01.html" class="dropdown-item  top-item" title="Click to open the Example-sub-subpage-01 page">Example-sub-subpage-01</a></li><li class="dropdown-divider"></li><li><a href="example-sub-sub-subpage-01.html" class="dropdown-item">Example-sub-sub-subpage-01</a></li></ul></li><!-- End Loop  --></ul></li><!-- End Loop 2 --><li><a href="example-subpage-02.html" class="dropdown-item">Example-subpage-02</a></li></ul></li><!-- End Loop 1 --><li class="nav-item "><a class="nav-link" href="about.html">About</a></li></ul></div>
+<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li></ul></div>
 			
     <span class="navbar-text">
       			<a href="https://github.com/tanc-ahrc/LocatingTANC/">
@@ -44,25 +40,7 @@
 			<div class="row ">				
 			 <div class="col-12 col-md-12">          
 				
-				<div class="jumbotron"><h2>National Gallery - <b>Simple Site</b> Example</h2></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>In addition to hosting software and files, as part of development projects, <a href='https://github.com'>GitHub</a> also provides the resources to host dedicated websites, to present and demonstrate ones work. This project has been developed to provide a, <b>relatively</b>, simple system for creating a standard set of these webpages, based on a small set of text files, formatted as <a href='https://www.json.org'>JSON</a> files. It was built to work along side a number of other GitHub projects, to provide a method of creating a set of consistent webpages, delivered using <a href='https://pages.github.com'>GitHub Pages</a>.</p>
-<center>
-	<a href="https://github.com/jpadfield/simple-site">
-		<img style="position:relative;width:400px;" src="graphics/simple site 01.png">
-	</a>
-</center>
-</br>
-<p>The content of the presented webpages are controlled with two main JSON files, augmented by optional additional files, stored in a local <b>build</b> folder.</p>
-<ul>
-	<li>Various site wide details are defined within the <a href='site.json.html'>site.json</a> file.</li>
-	<li>The content for the individual web-pages are defined within the <a href='pages.json.html'>pages.json</a> file. With the main pages being listed as tabs, and any sub-pages, or even sub-sub-pages etc, listed within drop-down menus from the related main page tab.</li>
-</ul>
-<p>The content added to these JSON files is automatically processed every time the files are edited and a new set of webpages will be created.</p>
-
-<div class="alert alert-info" role="alert">
-	<h4 class="alert-heading">Getting Started</h4>
-	<p><a href='https://github.com/join'>Join GitHub</a> &#8608; <a href='https://help.github.com/en/github/getting-started-with-github/fork-a-repo'>Copy/Fork</a> the repository &#8608; setup your <a href='https://help.github.com/en/actions'>GitHub Action</a> &#8608; Edit the JSON files &#8608; and Enjoy!</p>
-	<p>For more information see the <a href='instructions.html'>Instructions</a> page, the <a href='JSON.html'>JSON</a> pages and browse the various examples provided.</p>
-</div><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
+				<div class="jumbotron"><h2>Locating a National Collection</h2></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This project will help cultural heritage organisations to use location data - such as where objects were made and used or the places they depict and describe - to connect cultural heritage collections and engage audiences. Through scoping, workshops and audience research, the project will establish best practice and provide technical recommendations for a national system that allows collection items from diverse organisations to be discovered through location. The Pelagios Network of researchers, scientists and curators has developed a methodology that uses gazetteer referencing to link research data with considerable success, building a community of partners and stimulating research. This project builds on their methodology, scoping improvements and exploring ways to render content accessible and meaningful to different public audiences. To test and scope this ambition, participating organisations will work on a set of thematic and technological case studies to understand the requirements of stakeholders, institutional, academic and public. The objective is to understand the technical components required, the options available and to make recommendations for potential solutions, all described in the project report. The report will constitute a strategy to inform developments in the next phase of Towards a National Collection and across the cultural heritage sector more broadly. It will encourage cultural heritage organisations to take up a common geospatial approach and provide a roadmap that enables diverse organisations to enrich their metadata and expose this in a consistent and joined-up way, ultimately spear-heading a movement beyond text-based searches in cultural heritage.</p><p>This project is a Foundation project within the <a href="https://ahrc.ukri.org/" > AHRC < /a>-funded <a href="https:/ / ahrc.ukri.org / research / fundedthemesandprogrammes / tanc - opening - uk - heritage - to - the - world / ">Towards a National Collection Programme</a><p><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
 			</div><!--/span-->
 			
 			
@@ -71,7 +49,7 @@
 			  <footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-5" style="text-align:left;">&copy; The National Gallery 2020</div>
+				<div class="col-5" style="text-align:left;">&copy; British Library 2020</div>
 				<div class="col-2" style="text-align:center;"></div>
 				<div class="col-5" style="text-align:right;"><a href='http://rightsstatements.org/vocab/InC-EDU/1.0/'><img height='16' alt='In Copyright - Educational Use Permitted' title='In Copyright - Educational Use Permitted' src='graphics/InC-EDU.dark-white-interior-blue-type.png'/></a><a rel='license' href='https://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a></div>
 			</div>
